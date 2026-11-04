@@ -23,3 +23,7 @@ twinfetch [-s SECONDS] [-- fastfetch args...]
 The logo spins until a key is pressed or Ctrl-C. With `-s SECONDS`, it spins for that long, then finishes the current turn and settles facing front.
 
 Arguments after `--` are passed to fastfetch. If output isn't a terminal, or the terminal is too short to fit the animation, twinfetch prints a single static frame.
+
+## License
+
+[GPL-3.0](LICENSE)
